@@ -128,7 +128,7 @@ It's advised to add the following on the target board for protection and stabili
 
 * **TC2050** follows the logic connections 1-1, 2-2, 3-3, etc.
 
-Due to the connection of the TC2030 cable, the folllowing pinout was chosen, in order to limit the number of modificaiton to do with use of each cable.
+Due to the connection of the TC2030 cable, the folllowing pinout was chosen, in order to limit the number of modification to do with use of each cable.
 
 | 10 pins connector | TC2030                                                       | TC2050  |
 | ----------------- | ------------------------------------------------------------ | ------- |
