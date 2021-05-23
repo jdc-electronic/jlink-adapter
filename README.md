@@ -2,21 +2,16 @@
 
 ## Table of contents
 
-​	[1. Short User's Guide](#1---short-user's-guide)
+ * [1. Short User's Guide](#1---short-user's-guide)
+     * [1.1 Target PCB connector](#1.1---target-pcb-connector)
+     * [1.2 Serial Tx/Rx](#1.2---serial-tx/rx)
+   * [1.3 Power supply](#1.3---power-supply)
 
-​		[1.1 Target PCB connector](#1.1---target-pcb-connector)
+* [2. Layout guidelines](#2---layout-guidelines)
+  * [2.1 Tag-Connect footprint](#2.1---tag-connect-footprint)
+  * [2.2 Component to add](#2.2---component-to-add)
 
-​		[1.2 Serial Tx/Rx](#1.2---serial-tx/rx)
-
-​		[1.3 Power supply](#1.3---power-supply)
-
-​	[2. Layout guidelines](#2---layout-guidelines)
-
-​		[2.1 Tag-Connect footprint](#2.1---tag-connect-footprint)
-
-​		[2.2 Component to add](#2.2---component-to-add)
-
-​	[3 - Advanced information](#3---advanced-information)
+* [3 - Advanced information](#3---advanced-information)
 
 ## 1 - Short User's Guide
 
@@ -44,7 +39,7 @@ The Tag-Connect connectors recommended are the following:
 
 > :warning: **TC2030-ALT-NL** is the only version of the cable with 6 pins and 2x5, 2.54 pitch but the connection are **not suitable** for use with this adapter.
 
-#### Selection of the connector
+#### DIP SWITCH *S1*
 
 Depending if a 6 pins or 10 pins is chosen, the pinout association will be different. The selection of the used cable is done with pins 1-4 of the DIP switch *S1*:
 
