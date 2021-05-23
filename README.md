@@ -76,7 +76,7 @@ The pin numbering of the TC2030, respectively the TC2050 connectors doesn't foll
 
 **TC2030** pin numbering:
 
-<img src="./documentation/pictures/tc2030-footprint.png" alt="tc2030-footprint" style="height:50px;" >
+<img src="./documentation/pictures/tc2030-footprint.png" height="150px" />
 
 | Pin  | Function |
 | ---- | -------- |
@@ -89,7 +89,7 @@ The pin numbering of the TC2030, respectively the TC2050 connectors doesn't foll
 
 **TC2050** pin numbering:
 
-<img src="./documentation/pictures/tc2050-footprint.png" alt="tc2030-footprint" style="height:50px;" />
+<img src="./documentation/pictures/tc2050-footprint.png" height="150px" />
 
 | Pin  | Function |
 | ---- | -------- |
