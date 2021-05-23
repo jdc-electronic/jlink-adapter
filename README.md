@@ -16,7 +16,7 @@
 
 ​		[2.2 Component to add](#2.2 Component to add)
 
-​	[3. Advanced information](#3.-Advanced-information)
+​	[3. Advanced information](#3.-advanced-information)
 
 ## 1. Short User's Guide
 
