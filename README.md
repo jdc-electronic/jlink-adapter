@@ -16,7 +16,9 @@
 
 ​		[2.2 Component to add](#2.2 Component to add)
 
-​	[3. Advanced information](#3.-advanced-information)
+
+
+​	[3 - Advanced information](#3---advanced-information)
 
 ## 1. Short User's Guide
 
@@ -117,7 +119,7 @@ It's advised to add the following on the target board for protection and stabili
 * 100 Ω inline current limiting resistors on `UART Tx` and `UART Rx` lines.
 * 4.7 kΩ pullup resistor on I2C SDA/SCL (**mandatory**).
 
-## 3. Advanced information
+## 3 - Advanced information
 
 * **TC2030:** his 4 unused pins are unfortunately not all "not connected". The cable follows the following connection logic:
 
