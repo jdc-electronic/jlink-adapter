@@ -2,25 +2,23 @@
 
 ## Table of contents
 
-​	[1. Short User's Guide](#1. Short User's Guide)
+​	[1. Short User's Guide](#1---short-user's-guide)
 
-​		[1.1 Target PCB connector](#1.1 Target PCB connector)
+​		[1.1 Target PCB connector](#1.1---target-pcb-connector)
 
-​		[1.2 Serial Tx/Rx](#1.2 Serial Tx/Rx)
+​		[1.2 Serial Tx/Rx](#1.2---serial-tx/rx)
 
-​		[1.3 Power supply](#1.3 Power supply)
+​		[1.3 Power supply](#1.3---power-supply)
 
-​	[2. Layout guidelines](#2. Layout guidelines)
+​	[2. Layout guidelines](#2---layout-guidelines)
 
-​		[2.1 Tag-Connect footprint](#2.1 Tag-Connect footprint)
+​		[2.1 Tag-Connect footprint](#2.1---tag-connect-footprint)
 
-​		[2.2 Component to add](#2.2 Component to add)
-
-
+​		[2.2 Component to add](#2.2---component-to-add)
 
 ​	[3 - Advanced information](#3---advanced-information)
 
-## 1. Short User's Guide
+## 1 - Short User's Guide
 
 This adapter is designed for be plugged in any [J-Link debugger](https://www.segger.com/products/debug-probes/j-link/models/model-overview/) except the EDU mini. It allows the use of SWD interface with additional functionality including:
 
@@ -30,7 +28,7 @@ This adapter is designed for be plugged in any [J-Link debugger](https://www.seg
 
 It is recommended to use this adapter with Tag-Connect connectors, although it is technically possible to use a standard programming cable.
 
-### 1.1 Target PCB connector
+### 1.1 - Target PCB connector
 
 Two connectors are possible on the target PCB side, either a standard TST-105 (.100"/2.54 mm pitch) or a FTSH-105 (.050"/1.27 mm pitch) , both with 2x5 pins.
 
@@ -57,11 +55,11 @@ Depending if a 6 pins or 10 pins is chosen, the pinout association will be diffe
 | 3    | OFF ❌  | ON ✅   |
 | 4    | OFF ❌  | ON ✅   |
 
-### 1.2 Serial Tx/Rx
+### 1.2 - Serial Tx/Rx
 
 Two serial pins can be used either as UART or as [J-Link's VCOM](https://wiki.segger.com/J-Link_Virtual_COM_Port) signals. In both case Tx and Rx signals are connected to header pin 3 and 4, but connection to J-Link can be interrupted with pin 5 and 6 of the DIP switch *S1*.
 
- ### 1.3 Power supply
+ ### 1.3 - Power supply
 
 The J-Link can supply 5V over pin 19 of the JTAG connector. The command `power on` must be typed in [J-Link Commander](https://wiki.segger.com/J-Link_Commander) (JLink.exe/JLinkExe) to enable it (`power on perm` set it as default value).
 
@@ -75,9 +73,9 @@ Jumper *P1* can be used to monitor the current consumption of the target board.
 
 Power supply is connected to pin `Vin`. The choice not to use the `Vtef` pin is motivated by the fact that on some circuits the supply voltage is not necessarily the same as the signal reference voltage.
 
-## 2. Layout guidelines
+## 2 - Layout guidelines
 
-### 2.1 Tag-Connect footprint
+### 2.1 - Tag-Connect footprint
 
 The pin numbering of the TC2030, respectively the TC2050 connectors doesn't follow the same logic.
 
@@ -111,7 +109,7 @@ The pin numbering of the TC2030, respectively the TC2050 connectors doesn't foll
 | 9    | TxD      |
 | 10   | Reset    |
 
-### 2.2 Component to add
+### 2.2 - Component to add
 
 It's advised to add the following on the target board for protection and stability.
 
