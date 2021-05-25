@@ -23,6 +23,8 @@ This adapter is designed for be plugged in any [J-Link debugger](https://www.seg
 
 It is recommended to use this adapter with Tag-Connect connectors, although it is technically possible to use a standard programming cable.
 
+<img src="documentation/pictures/general view.png" width="400" />
+
 ### 1.1 - Target PCB connector
 
 Two connectors are possible on the target PCB side, either a standard TST-105 (.100"/2.54 mm pitch) or a FTSH-105 (.050"/1.27 mm pitch) , both with 2x5 pins.
@@ -50,11 +52,13 @@ Depending if a 6 pins or 10 pins is chosen, the pinout association will be diffe
 | 3    | OFF ❌  | ON ✅   |
 | 4    | OFF ❌  | ON ✅   |
 
+<img src="documentation/pictures/S1.png" width="200"/>
+
 ### 1.2 - Serial Tx/Rx
 
-Two serial pins can be used either as UART or as [J-Link's VCOM](https://wiki.segger.com/J-Link_Virtual_COM_Port) signals. In both case Tx and Rx signals are connected to header pin 3 and 4, but connection to J-Link can be interrupted with pin 5 and 6 of the DIP switch *S1*.
+Two serial pins can be used either as UART or as [J-Link's VCOM](https://wiki.segger.com/J-Link_Virtual_COM_Port) signals. In both case Tx and Rx signals are connected to header pin 3 and 4, but connection to J-Link can be interrupted with pin 5 and 6 of the DIP switch *S1*. <img src="documentation/pictures/S2.png" width="200" align="right"/>
 
- ### 1.3 - Power supply
+### 1.3 - Power supply
 
 The J-Link can supply 5V over pin 19 of the JTAG connector. The command `power on` must be typed in [J-Link Commander](https://wiki.segger.com/J-Link_Commander) (JLink.exe/JLinkExe) to enable it (`power on perm` set it as default value).
 
@@ -76,7 +80,7 @@ The pin numbering of the TC2030, respectively the TC2050 connectors doesn't foll
 
 **TC2030** pin numbering:
 
-<img src="./documentation/pictures/tc2030-footprint.png" height="150px" />
+<img src="./documentation/pictures/tc2030-footprint.png" height="150px" align="right"/>
 
 | Pin  | Function |
 | ---- | -------- |
@@ -89,7 +93,7 @@ The pin numbering of the TC2030, respectively the TC2050 connectors doesn't foll
 
 **TC2050** pin numbering:
 
-<img src="./documentation/pictures/tc2050-footprint.png" height="150px" />
+<img src="./documentation/pictures/tc2050-footprint.png" height="150px" align="right"/>
 
 | Pin  | Function |
 | ---- | -------- |
