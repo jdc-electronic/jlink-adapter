@@ -58,6 +58,8 @@ Depending if a 6 pins or 10 pins is chosen, the pinout association will be diffe
 
 Two serial pins can be used either as UART or as [J-Link's VCOM](https://wiki.segger.com/J-Link_Virtual_COM_Port) signals. In both case Tx and Rx signals are connected to header pin 3 and 4, but connection to J-Link can be interrupted with pin 5 and 6 of the DIP switch *S1*. <img src="documentation/pictures/S2.png" width="200" align="right"/>
 
+The pin name on the schematic are of the point of view of the J-Link (pin 7 = Rx, pin 9 = Tx).
+
 ### 1.3 - Power supply
 
 The J-Link can supply 5V over pin 19 of the JTAG connector. The command `power on` must be typed in [J-Link Commander](https://wiki.segger.com/J-Link_Commander) (JLink.exe/JLinkExe) to enable it (`power on perm` set it as default value).
