@@ -95,18 +95,18 @@ The pin numbering of the TC2030, respectively the TC2050 connectors doesn't foll
 
 <img src="./documentation/pictures/tc2050-footprint.png" height="150px" align="right"/>
 
-| Pin  | Function |
-| ---- | -------- |
-| 1    | VTref    |
-| 2    | SWDIO    |
-| 3    | GND      |
-| 4    | SWCLK    |
-| 5    | Vin      |
-| 6    | I2C SDA  |
-| 7    | RxD      |
-| 8    | I2C SCL  |
-| 9    | TxD      |
-| 10   | Reset    |
+| Pin  | Function              |
+| ---- | --------------------- |
+| 1    | VTref                 |
+| 2    | SWDIO                 |
+| 3    | GND                   |
+| 4    | SWCLK                 |
+| 5    | Vin                   |
+| 6    | I2C SDA               |
+| 7    | TxD (MCU's viewpoint) |
+| 8    | I2C SCL               |
+| 9    | RxD (MCU's viewpoint) |
+| 10   | Reset                 |
 
 ### 2.2 - Component to add
 
