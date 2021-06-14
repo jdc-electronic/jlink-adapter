@@ -120,7 +120,7 @@ It's advised to add the following on the target board for protection and stabili
 
 ## 3 - Advanced information
 
-* **TC2030:** his 4 unused pins are unfortunately not all "not connected". The cable follows the following connection logic:
+* **TC2030:** its 4 unused pins are unfortunately not all "not connected". The cable follows the following connection logic:
 
   | TC2030 pins   | Pin connected on the 10-pins connector side |
   | ------------- | ------------------------------------------- |
